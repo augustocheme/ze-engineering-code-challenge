@@ -1,0 +1,49 @@
+.categories-filter {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f2cf60;
+  color: #000;
+  display: flex;
+  padding: 15px;
+  margin-bottom: 30px;
+  align-items: center;
+  @media (max-width: 920px) {
+    flex-direction: column;
+  }
+}
+
+.filter-input {
+  margin-left: 20px;
+  width: 200px;
+  border: none;
+  font-size: 0.9rem;
+  height: 43px;
+  @media (max-width: 920px) {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+
+.add-filter-button,
+.remove-filter-button {
+  margin-left: 20px;
+  padding: 15px 5px;
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-weight: 700;
+  @media (max-width: 920px) {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}
+
+.remove-filter-button {
+  @media (max-width: 920px) {
+    width: 100%;
+    margin: 0px 0 10px;
+  }
+}

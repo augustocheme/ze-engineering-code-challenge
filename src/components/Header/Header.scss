@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 920px) {
+    padding: 20px;
+  }
+
+  .logo-container {
+    width: 150px;
+  }
+
+  .logo {
+    width: 100%;
+    padding-top: calc(56 / 176 * 100%);
+    background-image: url('https://courier-images-web.imgix.net/static/img/logo.png?auto=compress,format&fit=max&w=undefined&h=undefined&dpr=2&fm=png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.open-carrinho-button {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  color: #000;
+  cursor: pointer;
+}

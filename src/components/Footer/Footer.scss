@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #333333;
+  color: #fff;
+  padding: 30px 0;
+  justify-content: center;
+  @media (max-width: 920px) {
+    padding: 30px 20px;
+  }
+
+  .footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo-container {
+    width: 150px;
+  }
+
+  .logo {
+    width: 100%;
+    padding-top: calc(56 / 176 * 100%);
+    background-image: url('https://courier-images-web.imgix.net/static/img/logo-white-text.png?auto=compress,format&fit=max&w=176&h=56&dpr=2&fm=png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
